@@ -1,11 +1,11 @@
-# multimodal_jd067
+# moe_route_imbalance_timeline_score
 
 **按时间线排列多模态算法研究员·MoE 路由的负载不均并标出节奏异常。**
 
-`multimodal_jd067` —— 解析时间标记，排列多模态算法研究员·MoE 路由的负载不均的发生顺序，标出间隔异常与逆序事件
+`moe_route_imbalance_timeline_score` —— 解析时间标记，排列多模态算法研究员·MoE 路由的负载不均的发生顺序，标出间隔异常与逆序事件
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`multimodal_jd067.py` 拷走就能用
+- 单文件，`moe_route_imbalance_timeline_score.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install arnoldbarn-multimodal_jd067
+pip install arnoldbarn-moe_route_imbalance_timeline_score
 ```
 
 装完直接用命令名调用：
 
 ```bash
-multimodal_jd067 --help
+moe_route_imbalance_timeline_score --help
 ```
 
-也可以不用安装，直接把 `multimodal_jd067.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `moe_route_imbalance_timeline_score.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ multimodal_jd067 --help
 ## 用法
 
 ```bash
-python multimodal_jd067.py --file input.txt
-python multimodal_jd067.py --text "示例内容"
-python multimodal_jd067.py --file input.txt --json
+python moe_route_imbalance_timeline_score.py --file input.txt
+python moe_route_imbalance_timeline_score.py --text "示例内容"
+python moe_route_imbalance_timeline_score.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python multimodal_jd067.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_multimodal_jd067.py
+python test_moe_route_imbalance_timeline_score.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_multimodal_jd067.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/arnoldbarn/multimodal_jd067>
+- GitHub 仓库：<https://github.com/arnoldbarn/moe_route_imbalance_timeline_score>
 
 ---
 
@@ -79,7 +79,7 @@ python test_multimodal_jd067.py
 arnoldbarn 做多模态算法研究员·MoE 路由的负载不均相关的问题，方向对标月之暗面的中级多模态算法研究员岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://arnoldbarn.github.io>
-- 仓库：<https://github.com/arnoldbarn/multimodal_jd067>
+- 仓库：<https://github.com/arnoldbarn/moe_route_imbalance_timeline_score>
 
 ## 许可
 
